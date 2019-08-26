@@ -20,15 +20,49 @@ For reference, see:
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes (Links to an external site.)
 https://http.cat
 
-
-1. 200
-1. 301
-1. 400
-1. 401
-1. 403
-1. 404
-1. 418
-1. 500
+```swift
+/*
+1. 200 OK
+    a. https://http.cat/
+    b. the code means a successful request
+    c. nothing needs to be done
+    
+2. 301 Moved Permanently
+    a. hard to find one
+    b. 
+    c.
+    
+3. 400 Bad Request
+    a. https://httpstat.us/400
+    b. Request cannot be fulfilled because of bad syntax
+    c. correct the spelling/ syntax
+    
+4. 401 Unauthorized
+    a. https://httpstat.us/401
+    b. aunthentication failed wronf user/password
+    c. remeber your login credentials somewhere
+    
+5. 403 Forbidden 
+    a. https://api.nasa.gov/planetary/apod?api_key=QYzbmgCeWrSQxYaa49QFdlFb7a3S8U22zAlq8hvYs
+    b. The server refused the authentication
+    c. make sure the URL you typed in is correct
+    
+6. 404 Not Found
+    a. https://dog.ceo/api/breed//image/random
+    b. The resource could not be found
+    c. The site may be private or it just doesn't exist so try something else
+    
+7. 418 I'm a teapot
+    a. https://httpstat.us/418
+    b. 1998 April fool joke
+    c. short and stout, here is my handle, here is my spout
+    
+8. 500 Internal Server Error
+    a. https://httpstat.us/500
+    b. generic error message when no more specific message is suitable
+    c.
+*/
+```
 
 # Part Two
 
