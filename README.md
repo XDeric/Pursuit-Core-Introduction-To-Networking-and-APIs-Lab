@@ -101,6 +101,7 @@ https://catfact.ninja/breeds?limit=1
 https://randomuser.me/
 <details>
 <summary> JSON code </summary>
+```swift
 <!DOCTYPE html><html lang="en"><head><title>Random User Generator | Home</title><meta charset='utf-8'><meta name="description" content="Random user generator is a FREE API for generating placeholder user information. Get profile photos, names, and more. It's like Lorem Ipsum, for people."><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><link rel="stylesheet" type="text/css" href="dist/style.css"><script src="dist/all.js"></script></head><body class=""><div id="navbar" class=""><div class="nav_toggle"><div class="icon"><div></div><div></div><div></div></div></div><ul><li><a href="index">Home</a></li><li><a href="photos">User Photos</a></li><li><a href="documentation">Documentation</a></li><li><a href="changelog">Change Log</a></li><li><a href="stats">Stats &amp; Graphs</a></li><li><a href="donate">Donate</a></li><li><a href="copyright">Copyright Notice</a></li><li class="blank"></li><li><a href="photoshop">Photoshop Extension</a></li></ul></div><header><h1>Random User Generator</h1><p>A free, <a id="openSource" href="https://github.com/RandomAPI/Randomuser.me-Node">open-source</a> API for generating random user data. Like Lorem Ipsum, but for people. </p><a href="https://twitter.com/randomapi" class="twitter"><img src="img/twitter.png">Follow us @randomapi</a></header><div class="frame card_offset"><div class="card"><div class="details"><div class="user_photo horizontal_center" id="user_photo"><a href="javascript:getNewUser();" class="refresh">New</a><img src=""></div><p id="user_title">Hi, My name is</p><p id="user_value">...</p></div><ul class="values_list horizontal_center" id="values_list"><li data-title="Hi, My name is" data-value="..." data-label="name" class="active"></li><li data-title="My email address is" data-value="..." data-label="email" data-caps="false"></li><li data-title="My birthday is" data-value="..." data-label="birthday"></li><li data-title="My address is" data-value="..." data-label="location"></li><li data-title="My phone number is" data-value="..." data-label="phone"></li><li data-title="My password is" data-value="..." data-label="pass" data-caps="false"></li></ul></div><section class="sponsor"><h2>Sponsored</h2><h3>RandomAPI</h3><p>Want to create your own <b>customized</b> data generator for your application?<br>Check out our other service RandomAPI!</p><button id="learnmore" class="button" onClick="window.open('https://randomapi.com');">Learn More</button></section><section class="advertisement"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px;margin:0 16px;" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><ins class="adsbygoogle" style="display:inline-block;width:230px;height:200px" data-ad-client="ca-pub-2036801804961954" data-ad-slot="7646598623"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></section><section><h2>How to use</h2><p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started.</p><pre>$.ajax({
 url: '<span>https: //randomuser.me/api/</span>',
 dataType: '<span>json</span>',
@@ -181,6 +182,7 @@ console.log(<span>data</span>);
 0
 ];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script',' //www.google-analytics.com/analytics.js','ga');ga('create', 'UA-42942064-1', 'randomuser.me');ga('send', 'pageview');</script></body></html>
+```
 </details>
 
 
@@ -188,6 +190,7 @@ console.log(<span>data</span>);
 https://ws-api.iextrading.com/1.0/tops
 <details>
 <summary> JSON code </summary>
+```swift
 {
 "symbol": "IEX",
 "sector": "capitalgoods",
@@ -203,6 +206,7 @@ https://ws-api.iextrading.com/1.0/tops
 "volume": 7580,
 "marketPercent": 0.03472
 }
+```
 </details>
 
 
@@ -210,6 +214,7 @@ https://ws-api.iextrading.com/1.0/tops
 <details>
 https://ws-api.iextrading.com/1.0/tops
 <summary> JSON code </summary>
+```swift
 {
 "symbol": "AAPL",
 "sector": "technologyhardwareequipment",
@@ -225,6 +230,7 @@ https://ws-api.iextrading.com/1.0/tops
 "volume": 488307,
 "marketPercent": 0.02536
 }
+```
 </details>
 
 5. All the Swift language repos on Github with Pursuit in their name
@@ -238,6 +244,7 @@ Gave me 404 error no access rights maybe
 <details>
 https://pokeapi.co/api/v2/pokemon/bulbasaur/
 <summary> JSON code </summary>
+```swift
 "abilities": [
 {
 "ability": {
@@ -262,6 +269,7 @@ https://pokeapi.co/api/v2/pokemon/bulbasaur/
 "name": "bulbasaur",
 "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
 }
+```
 </details>
 
 7. A list of all items in Fortnite
@@ -269,28 +277,33 @@ https://pokeapi.co/api/v2/pokemon/bulbasaur/
 https://fortnite-api.theapinetwork.com/store/get
 require authentication token
 <summary> JSON code </summary>
+```swift
 {
 "success": false,
 "error": "Please add your Authorization token.",
 "eCode": "authorization.empty",
 "_console": "https://console.fortniteapi.com"
 }
+```
 </details>
 
 8. A list of all Game of Thrones Episodes.
 <details>
 https://got-quotes.herokuapp.com/quotes
 <summary> JSON code </summary>
+```swift
 {
 "quote": "The fisherman drowned, but his daughter got Stark to the Sisters before the boat went down. They say he left her with a bag of silver and a bastard in her belly. Jon Snow, she named him, after Arryn.",
 "character": "Davos"
 }
+```
 </details>
 
 9. A list of all songs with "Love" in the title.
 <details>
 https://github.com/XDeric/SongsSearchBar/blob/master/SongsTableViewSearchBar/Song.swift
 <summary> JSON code </summary>
+```swift
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -348,12 +361,14 @@ https://github.com/XDeric/SongsSearchBar/blob/master/SongsTableViewSearchBar/Son
 
 
 <meta class="js-ga-set" name="dimension1" content="Logged Out">
+```
 </details>
 
 10. All information about Petyr Baelish from the Game of Thrones books
 <details>
 https://gameofthrones.fandom.com/wiki/Petyr_Baelish
 <summary> JSON code </summary>
+```swift
 <!doctype html>
 <html lang="en" dir="ltr" class="">
 <head>
@@ -451,12 +466,14 @@ ads={
 "disableBtf": false
 }
 }
+```
 </details>
 
 11. All the movies Leonardo Dicaprio has acted in
 <details>
 https://en.wikipedia.org/wiki/Leonardo_DiCaprio_filmography
 <summary> JSON code </summary>
+```swift
 <!DOCTYPE html>
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
@@ -493,5 +510,6 @@ https://en.wikipedia.org/wiki/Leonardo_DiCaprio_filmography
 "wgPageContentModel": "wikitext",
 "wgSeparatorTransformTable": [
 ""
+```
 </details>
 
