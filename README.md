@@ -70,11 +70,12 @@ API Scavenger Hunt!
 
 For each of the questions below, identify a website and search query that will give you the appropriate JSON.  Paste the url and the json below.  Googling the category + API will generally take you to where you need.  Ex. https://lmgtfy.com/?q=cat+fact+api
 
-```swift
+
 1. A random cat fact
 https://catfact.ninja/breeds?limit=1
 <details>
 <summary>JSON code</summary>
+```swift
 "total": 98,
 "per_page": "1",
 "current_page": 1,
@@ -93,6 +94,7 @@ https://catfact.ninja/breeds?limit=1
 }
 ]
 }
+```
 </details>
 
 2. A list of 150 random users in English.
@@ -493,4 +495,3 @@ https://en.wikipedia.org/wiki/Leonardo_DiCaprio_filmography
 ""
 </details>
 
-```
