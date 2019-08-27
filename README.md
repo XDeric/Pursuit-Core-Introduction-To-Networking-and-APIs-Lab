@@ -74,7 +74,7 @@ For each of the questions below, identify a website and search query that will g
 1. A random cat fact
 https://catfact.ninja/breeds?limit=1
 <details>
-<summary> JSON code </summary>
+<summary>JSON code</summary>
 "total": 98,
 "per_page": "1",
 "current_page": 1,
@@ -93,7 +93,7 @@ https://catfact.ninja/breeds?limit=1
 }
 ]
 }
-<details>
+</details>
 
 2. A list of 150 random users in English.
 https://randomuser.me/
